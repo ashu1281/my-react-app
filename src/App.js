@@ -1,19 +1,23 @@
 //import logo from './logo.svg';
 import './App.css';
 import Cards from './components/Cards';
+import LoginForm from './components/LoginForm';
 import LuckyNumber from './components/LuckyNumber';
+import Register from './components/Register';
 //import Hello from './Hello';
 //import Product from './Product';
 
 function App() {
   
-  return(
-    <div>
-        {/* <h1>Mobile list's</h1> */}
-        {/* <Cards /> */}
-        <LuckyNumber />
-    </div>
-  );
+  return <Register/>
+  //return <LoginForm/>
+  // return(
+  //   <div>
+  //       {/* <h1>Mobile list's</h1> */}
+  //       {/* <Cards /> */}
+  //       {/* <LuckyNumber /> */}
+  //   </div>
+  // );
   
   // return (
   //   //sir code

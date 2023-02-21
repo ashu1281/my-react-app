@@ -12,10 +12,10 @@ function LuckyNumber(){
     }
 
     return (
-        <div style={} >
+        <div>
             <center>
-                <button onClick={generatenum}>Click Here</button> <br /> to reveal your lucky number!
-                <h1>Your Lucky Number is {luckyNumber}</h1>
+                <button className='btn-lucky' onClick={generatenum} disabled={luckyNumber > 0}>Click Here</button> <br /> to reveal your lucky number!
+                {luckyNumber > 0 && <h1>Your Lucky Number is {luckyNumber}</h1>}
             </center>
         </div>
         
